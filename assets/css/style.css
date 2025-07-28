@@ -149,3 +149,79 @@ footer {
     background-image: linear-gradient(rgba(50,168,219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
 }
+@media (max-width: 600px) {
+  /* Banner */
+  .banner {
+    height: auto;
+    padding: 40px 16px;
+  }
+
+  .banner .banner-content {
+    width: 100%;
+  }
+
+  .banner .logo {
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 24px;
+  }
+
+  .banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .banner-content button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  /* Seção de conteúdo */
+  #course-content {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  #course-content .modules-list .module {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  /* Transform World */
+  #transform-world {
+    height: auto;
+    padding: 80px 16px;
+    background-attachment: scroll;
+  }
+
+  #transform-world p {
+    font-size: 1.8rem;
+    max-width: 100%;
+  }
+
+  /* Desafios Profissionais */
+  #professional-challenges {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  #professional-challenges img {
+    width: 100%;
+  }
+
+  footer {
+    padding: 40px 16px;
+  }
+
+  footer .dio-logo {
+    width: 80%;
+    max-width: 250px;
+  }
+}
